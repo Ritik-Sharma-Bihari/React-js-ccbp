@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import AppFruitCounter from './AppFruitCounter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+
+    {/* this is for display the fruitscount  */}
+    <AppFruitCounter />
   </React.StrictMode>
 );
 
