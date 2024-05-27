@@ -4,13 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppFruitCounter from './AppFruitCounter';
+import AppTodo from './AppTodo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
 
     {/* this is for display the fruitscount  */}
-    <AppFruitCounter />
+    {/* <AppFruitCounter /> */}
+
+    {/* 
+    this is for simple todo */}
+    <AppTodo />
   </React.StrictMode>
 );
 
