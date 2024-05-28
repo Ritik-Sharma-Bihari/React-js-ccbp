@@ -4,17 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppRandom from './AppRandom';
+import Destination from './Destionation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
 
-    {/* 
-        this is for Random number
-    */}
-    <AppRandom />
-    
+    {/*  this is for Random numbe */}
+    {/* <AppRandom /> */}
+
+    {/* this is for Destination part  */}
+    <Destination />
+
   </React.StrictMode>
 );
 
