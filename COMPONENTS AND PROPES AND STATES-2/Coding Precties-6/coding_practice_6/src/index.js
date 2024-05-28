@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppRandom from './AppRandom';
 import Destination from './Destionation';
-
+import Simpletodo from './Simpletodo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,7 +15,10 @@ root.render(
     {/* <AppRandom /> */}
 
     {/* this is for Destination part  */}
-    <Destination />
+    {/* <Destination /> */}
+
+    {/* this is for simple todo  */}
+    <Simpletodo />
 
   </React.StrictMode>
 );
